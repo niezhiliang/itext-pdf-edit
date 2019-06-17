@@ -13,10 +13,8 @@ import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfReader;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import com.niezhiliang.itext.pdf.edit.entity.PdfEditDTO;
-import com.niezhiliang.itext.pdf.edit.enums.FontType;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 
 public class PdfUtils {
@@ -57,4 +55,6 @@ public class PdfUtils {
         pdfDocument.close();
         pdfWriter.close();
     }
+
+
 }
