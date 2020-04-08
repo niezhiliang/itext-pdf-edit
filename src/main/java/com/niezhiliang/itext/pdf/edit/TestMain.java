@@ -12,7 +12,7 @@ public class TestMain {
 
     public static void main(String[] args) throws Exception {
         //获取pdf源文件
-        File file = new File(PdfUtils.class.getClassLoader().getResource("./test .pdf").getPath());
+        File file = new File(PdfUtils.class.getClassLoader().getResource("./test.pdf").getPath());
 
         List<PdfEditDTO> pdfEditDTOList = new ArrayList<>();
 
@@ -42,7 +42,7 @@ public class TestMain {
 
         pdfEditDTOList.add(pdfEditDTO2);
 
-        PdfUtils.eidtPdfText(file,"/Users/suyu/Desktop/itext-pdf-edit/src/main/resources/test2.pdf",pdfEditDTOList);
+        PdfUtils.eidtPdfText(file,"/Users/fxq/Desktop/itext-pdf-edit/src/main/resources/test2.pdf",pdfEditDTOList);
 
     }
 
