@@ -11,6 +11,14 @@ import java.util.regex.Pattern;
 
 public class TestMain {
 
+
+    /**
+     * 换行原理：计算出一行能放多少个字体，一个中文字
+     * 占的像素单位为字体大小的像素单位，英文字母和数字
+     * 占字体带下的一半，空格占字体大小的四分之一
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
 
         String world = "  sdf撒旦法阿斯蒂芬按时按时阿萨德阿斯蒂芬阿萨德阿斯顿福建；路撒地方；离开家暗室逢灯名女生都if技能名称；埃里克差距欧赔；你妈是无法 阿萨德联发科加速度；浪蝶狂蜂寄哪里奥德赛阿斯蒂芬大连富士康；加工费；雷克萨就能";
